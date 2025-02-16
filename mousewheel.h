@@ -13,6 +13,7 @@ typedef struct {
     bool init;
     uint16_t last_angle;
     int16_t delta;
+    uint8_t hardware_error;
 } MouseWheel;
 
 #endif

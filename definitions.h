@@ -8,6 +8,7 @@
 
 // tasks
 #define INTERVAL_MS_UPDATE_MOUSEWHEEL_TASK 1
+#define INTERVAL_MS_HID_TASK 10
 
 // mousewheel
 #define MOUSEWHEEL_ANGLE_FILTER_WINDOW_SIZE 20 // max 255

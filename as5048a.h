@@ -4,6 +4,10 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 
+#define AS5048A_OK           0x00
+#define AS5048A_ERROR_PARITY 0x01
+#define AS5048A_ERROR_FLAG   0x02
+
 void init_as5048a(spi_inst_t *spi, uint cs_pin);
 
 uint8_t as5048a_read_angle(uint16_t *angle);

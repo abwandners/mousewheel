@@ -79,7 +79,7 @@ int main(void) {
     
     update_mousewheel_task(&mouseWheel);
 
-    led_blinking_task();
+    //led_blinking_task();
   }
 }
 
